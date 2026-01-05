@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Instagram Video Downloader</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="top-bar">
+      <h1>Instagram Video Downloader</h1>
+      <button class="dark-toggle" onclick="toggleDarkMode()">🌙</button>
+    </div>
+
+    <!-- Ad Placeholder -->
+    <div class="ad ad-top">Ad Space</div>
+
+    <p class="subtitle">Download Instagram videos in HD quality</p>
+
+    <input type="text" id="url" placeholder="Paste Instagram video link">
+    <button onclick="download()">Download</button>
+
+    <!-- Loading -->
+    <div id="loading" class="loader hidden"></div>
+
+    <!-- Result / Error -->
+    <div id="result"></div>
+
+    <!-- Ad Placeholder -->
+    <div class="ad ad-bottom">Ad Space</div>
+
+    <div class="footer">
+      For personal use only • We do not host any content
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+
