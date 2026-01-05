@@ -1,65 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Instagram Video Downloader</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+
   <div class="container">
-    <div class="top-bar">
-      <h1>Instagram Video Downloader</h1>
+
+    <!-- Header -->
+    <div class="header">
+      <h1>Instagram<br>Video<br>Downloader</h1>
       <button class="dark-toggle" onclick="toggleDarkMode()">🌙</button>
-      <div class="footer">
-  <p class="footer-links">
-    <a href="privacy.html">Privacy Policy</a>
-    <span>•</span>
-    <a href="terms.html">Terms</a>
-    <span>•</span>
-    <a href="about.html">About</a>
-    <span>•</span>
-    <a href="contact.html">Contact</a>
-  </p>
-
-  <p class="footer-note">
-    For personal use only • We do not host any content
-  </p>
-</div>
-
     </div>
 
-    <!-- Ad Placeholder -->
-    <div class="ad ad-top">Ad Space</div>
+    <!-- Top Ad -->
+    <div class="ad">Ad Space</div>
 
     <p class="subtitle">Download Instagram videos in HD quality</p>
 
-    <input type="text" id="url" placeholder="Paste Instagram video link">
-    <button onclick="download()">Download</button>
+    <input type="text" id="url" placeholder="Paste Instagram video link" />
 
-    <!-- Loading -->
-    <div id="loading" class="loader hidden"></div>
+    <button class="download-btn" onclick="download()">Download</button>
 
-    <!-- Result / Error -->
-    <div id="result"></div>
+    <!-- Bottom Ad -->
+    <div class="ad">Ad Space</div>
 
-    <!-- Ad Placeholder -->
-    <div class="ad ad-bottom">Ad Space</div>
-
+    <!-- Footer -->
     <div class="footer">
-      For personal use only • We do not host any content
+      <div class="footer-links">
+        <a href="privacy.html">Privacy Policy</a>
+        <span>•</span>
+        <a href="terms.html">Terms</a>
+        <span>•</span>
+        <a href="about.html">About</a>
+        <span>•</span>
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <div class="footer-note">
+        For personal use only • We do not host any content
+      </div>
     </div>
+
   </div>
 
   <script src="script.js"></script>
 </body>
-<hr>
-<p>
-  <a href="privacy.html">Privacy Policy</a> |
-  <a href="terms.html">Terms</a> |
-  <a href="about.html">About</a> |
-  <a href="contact.html">Contact</a>
-</p>
-
-
-
-
+</html>
