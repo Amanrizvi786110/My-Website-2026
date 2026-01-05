@@ -21,9 +21,21 @@
 
     <p class="subtitle">Download Instagram videos in HD quality</p>
 
-    <input type="text" id="url" placeholder="Paste Instagram video link" />
+    <input
+      type="text"
+      id="url"
+      placeholder="Paste Instagram video link"
+    />
 
-    <button class="download-btn" onclick="download()">Download</button>
+    <button class="download-btn" onclick="download()">
+      Download
+    </button>
+
+    <!-- Loading Animation -->
+    <div id="loading" class="loading hidden"></div>
+
+    <!-- Result / Error -->
+    <div id="result"></div>
 
     <!-- Bottom Ad -->
     <div class="ad">Ad Space</div>
